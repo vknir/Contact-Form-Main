@@ -24,7 +24,7 @@ function App() {
 
     useEffect(()=>{
         if(showSuccess){
-            const ref= setTimeout(()=>setShowSuccess(false), 2000)
+            const ref= setTimeout(()=>setShowSuccess(false), 4000)
             return ()=> clearTimeout(ref)
         }
     },[showSuccess])
